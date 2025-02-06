@@ -101,7 +101,7 @@
   "scripts": {
     "clean": "lerna clean",
     "bootstrap": "npm install --legacy-peer-deps",
-    "eslint": "eslint . --ignore-path .gitignore",
+    "eslint": "eslint . --ignore-pattern .gitignore",
     "stylelint": "stylelint --ignore-path .gitignore \"**/*.scss\"",
     "validate": "npm run eslint && npm run stylelint",
     "format": "npm run eslint -- --fix",
